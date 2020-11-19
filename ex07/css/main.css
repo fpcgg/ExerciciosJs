@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(13, 212, 136);
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container header{
+    margin: 30% 0 20px;
+    font-size: 4rem;
+}
+
+.container section .result{
+    background-color: rgb(214, 212, 212);
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: none;
+    padding: 2%;
+}
+
+footer{
+    margin-top: 15px;
+}
