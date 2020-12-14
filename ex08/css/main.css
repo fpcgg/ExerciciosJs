@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(67, 64, 87);
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10% 0;
+    text-align: center;
+}
+
+.container header{
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.container section{
+    background-color: white;
+    padding: 1.5%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    justify-content: center;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.container section .numbers{
+    display: flex;
+    flex-flow: column;
+    margin: 0 10px;
+}
+
+.container section .numbers input{
+    line-height: 30px;
+}
+
+.container section input[type="button"]{
+    margin: 20px auto;
+    border: none;
+    width: 200px;
+    background-color: rgb(67, 64, 87);
+    padding: 1%;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.container section input[type="button"]:hover{
+    background-color:  rgb(111, 106, 143);
+}
